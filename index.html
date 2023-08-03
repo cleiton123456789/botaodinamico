@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão dinâmico</title>
+<style>
+  #myElement {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: none; /* Começa oculto */
+  }
+  button {
+    margin-top: 10px;
+  }
+  #batman{
+    width: 550px;
+    height: 550px;
+  }
+
+</style>
+</head>
+<body>
+<div id="myElement"><img id="batman" src="jesse.jpg" alt=""></div>
+<button onclick="toggleVisibility()">Botão dinâmico</button>
+
+
+<script>
+  function toggleVisibility() {
+    var element = document.getElementById("myElement");
+    if (element.style.display === "none") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+    function alterarcoremostrarimagem() {
+      var element = document.getElementById("")
+    }
+  }
+</script>
+</body>
+</html>
